@@ -15,23 +15,23 @@ class ProductCard extends StatelessWidget {
   Widget build(BuildContext context) {
     String imagePath = '';
     String title = '';
-    String desc = '';
+    String description = '';
 
     switch (product) {
       case ProductType.dart:
         imagePath = '../assets/ex3/dart.png';
         title = 'Dart';
-        desc = 'the best object language';
+        description = 'the best object language';
         break;
       case ProductType.flutter:
         imagePath = '../assets/ex3/flutter.png';
         title = 'Flutter';
-        desc = 'the best mobile widget library';
+        description = 'the best mobile widget library';
         break;
       case ProductType.firebase:
         imagePath = '../assets/ex3/firebase.png';
         title = 'Firebase';
-        desc = 'the best cloud database';
+        description = 'the best cloud database';
         break;
     }
 
@@ -68,7 +68,7 @@ class ProductCard extends StatelessWidget {
                   ),
                   const SizedBox(height: 6),
                   Text(
-                    desc,
+                    description,
                     style: TextStyle(
                       fontSize: 14,
                       color: Colors.grey[700],
