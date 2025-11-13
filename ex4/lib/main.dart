@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.grey[200],
         appBar: AppBar(
           backgroundColor: Colors.blue[300],
-          centerTitle: true,
         ),
         body: ListView(
           padding: const EdgeInsets.all(16),
